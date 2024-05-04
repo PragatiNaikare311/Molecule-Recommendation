@@ -34,7 +34,23 @@ Semantic similarity is determined based on the ChEBI ontology, employing the fol
 Results: <img width="1457" alt="Screenshot 2024-05-04 at 11 05 05 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/ef02b347-f2bb-41ba-bd03-49547d907a43">
 <img width="1434" alt="Screenshot 2024-05-04 at 11 04 50 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/5ef0caef-fd6c-4fa5-89ab-8df2c66b13e3">
 
-#### Stage II - Deep Generative Model
+### Stage II - Deep Generative Model
+
+Researchers' interests may extend beyond molecules present in the MolRec dataset. To address this, we employ a Variational Autoencoder (VAE) to recommend novel molecules not in the MolRec data based on molecules recommended in stage 1.
+
+## Stage 2: VAE-Based Novel Molecule Recommendation
+
+- **Objective**: Generate novel molecules beyond those in the MolRec dataset.
+- **Approach**: Utilize a Variational Autoencoder (VAE) conditioned on molecules recommended in stage 1.
+- **JTVAE1**: A 2-stage Graph Neural Network (GNN)-based framework is employed for generating chemically valid molecules.
+- **Functionality**: Given an arbitrary number of reference molecules, the VAE generates a new molecule aligned with the researcher's interests.
+
+### Open Source Resources
+
+- **Trained Weights**: We provide open access to the trained weights.
+- **Model Demo**: A demonstration of the model is also open-sourced for exploration
+
+
 
 <img width="634" alt="image" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/00234cd4-17b8-4299-8de6-cbe8ba5a11a9">
 
