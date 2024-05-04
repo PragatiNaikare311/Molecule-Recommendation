@@ -19,5 +19,8 @@ Given a researcher’s historical molecule interactions, our recommendation pipe
 #### Stage I
 In the first stage, we use state-of-the-art methods for recommendations from the MolRec dataset based on collaborative filtering and chemical semantic similarity [Barros et al., 2021]. Our results show that a hybrid of alternating least squares and chemical semantic similarity based on the molecule’s ChEBI ontology give the best performance on a held-out test set.
 
+Results: <img width="1457" alt="Screenshot 2024-05-04 at 11 05 05 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/ef02b347-f2bb-41ba-bd03-49547d907a43">
+<img width="1434" alt="Screenshot 2024-05-04 at 11 04 50 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/5ef0caef-fd6c-4fa5-89ab-8df2c66b13e3">
+
 #### Stage II
 In the second stage, we train a Junction Tree Variational Autoencoder [Jin et al., 2018] on the Zinc250K dataset [Sterling and Irwin, 2015] of 250K drug-like compounds. We are then able to condition generations from the VAE on the molecules recommended in the first stage to generate novel molecules beyond those in the MolRec data based on the researcher’s interests.
