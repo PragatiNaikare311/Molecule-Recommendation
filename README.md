@@ -35,6 +35,8 @@ Semantic similarity is determined based on the ChEBI ontology, employing the fol
 Results: <img width="1457" alt="Screenshot 2024-05-04 at 11 05 05 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/ef02b347-f2bb-41ba-bd03-49547d907a43">
 <img width="1434" alt="Screenshot 2024-05-04 at 11 04 50 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/5ef0caef-fd6c-4fa5-89ab-8df2c66b13e3">
 
+ALS_ONTO (Performs Better for Top 5 Molecules) ![image](https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/245bb019-16c0-4675-b1b7-f68c57645356)
+
 ### Stage II - Deep Generative Model
 
 Researchers' interests may extend beyond molecules present in the MolRec dataset. To address this, we employ a Variational Autoencoder (VAE) to recommend novel molecules not in the MolRec data based on molecules recommended in stage 1.
