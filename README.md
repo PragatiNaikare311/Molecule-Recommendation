@@ -13,18 +13,18 @@ The research Project aims to design and implement a hybrid chemical recommender 
 
 The system leverages users’ past research experiences to recommend innovative synthesized molecules. These recommendations will serve as potential subjects of investigation for researchers in biomedical, drug, and chemistry-related fields. To achieve this, we have developed a powerful molecule recommendation pipeline, tailored to recommend molecules to researchers based on their past interactions. 
 
-### 2-Stage Recommendation Pipeline
+## 2-Stage Recommendation Pipeline
 Given a researcher’s historical molecule interactions, our recommendation pipeline curates a set of molecules from the MolRec data and generates novel molecules aligned with the researcher’s interests.
 
-#### Stage I - Classical Recommendation
-# Collaborative Filtering (CF)
+### Stage I - Classical Recommendation
+#### Collaborative Filtering (CF)
 
 State-of-the-art CF recommender algorithms are employed for implicit data recommendation. Key algorithms utilized include:
 
 - **Alternative Least Squares (ALS)**
 - **Bayesian Personalized Ranking (BPR)**
 
-# Semantic Similarity (Content Based)
+####  Semantic Similarity (Content Based)
 
 Semantic similarity is determined based on the ChEBI ontology, employing the following approach:
 
