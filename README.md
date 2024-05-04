@@ -1,7 +1,9 @@
 # Molecule-Recommendation
 
 WEBSITE LINK: https://yaruyang.wixsite.com/mol-rec
+
 VIDEO: https://www.youtube.com/watch?v=R2_QVLiIKYo&t=5s
+
 SUMMARY REPORT: https://83b66dc9-0e7e-4155-9b49-600d07b0c53e.filesusr.com/ugd/609a2c_1855f7a0acc042929e761885a86e515f.pdf
 
 The research Project aims to design and implement a hybrid chemical recommender system.
