@@ -17,6 +17,18 @@ The system leverages users’ past research experiences to recommend innovative 
 Given a researcher’s historical molecule interactions, our recommendation pipeline curates a set of molecules from the MolRec data and generates novel molecules aligned with the researcher’s interests.
 
 #### Stage I - Classical Recommendation
+# Collaborative Filtering (CF)
+
+State-of-the-art CF recommender algorithms are employed for implicit data recommendation. Key algorithms utilized include:
+
+- **Alternative Least Squares (ALS)**
+- **Bayesian Personalized Ranking (BPR)**
+
+# Semantic Similarity (Content Based)
+
+Semantic similarity is determined based on the ChEBI ontology, employing the following approach:
+
+- **Chemical Semantic Similarity**: This method calculates similarity between compounds using DiShLn to measure the distance between entities in a semantic base. The similarity metric used here is Resnik.
 
 
 Results: <img width="1457" alt="Screenshot 2024-05-04 at 11 05 05 AM" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/ef02b347-f2bb-41ba-bd03-49547d907a43">
