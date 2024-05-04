@@ -9,7 +9,8 @@
 The research Project aims to design and implement a hybrid chemical recommender system. This system will leverage a combination of algorithms, including collaborative filtering, content-based approaches, Graph Neural Networks (GNNs), and autoencoders to effectively identify and recommend compounds of interest. It focuses on introducing scientific researchers to potentially unknown chemical compounds within large-scale chemical datasets, enhancing discovery and research efficiency in chemistry and related fields.
 
 ## Methodology
-![Methodology](https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/acc069ff-6a93-4078-963a-6a7440a75289)
+<img width="1028" alt="image" src="https://github.com/PragatiNaikare311/Molecule-Recommendation/assets/143132647/1509cc5d-af12-46d8-b875-a4acc27a437d">
+
 
 The system leverages users’ past research experiences to recommend innovative synthesized molecules. These recommendations will serve as potential subjects of investigation for researchers in biomedical, drug, and chemistry-related fields. To achieve this, we have developed a powerful molecule recommendation pipeline, tailored to recommend molecules to researchers based on their past interactions. 
 
